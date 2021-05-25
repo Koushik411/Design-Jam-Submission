@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>King's Day Speech</title>
+	<link rel="icon" type="image/jpg" href="data:image/jpeg;base64,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" sizes="20x20">
+	<style>
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001580;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #00E6E6;
+}
+
+.active {
+  background-color: #E60000;
+}
+ul {
+	margin-left: -8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	}
+	a{
+		background-color: #0073E6;
+		padding: 10px;
+		color: white;
+	}
+	body{
+		background-image: url("https://i.pinimg.com/originals/a6/bc/45/a6bc457455845bcf35b75bdbb954ad32.gif");
+		background-repeat:repeat;
+		background-position: fixed;
+		height: 100%;
+	}
+	h1{
+		color: #e0dfdc;
+background: #556677;
+letter-spacing: .1em;
+text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+	}
+	.People{
+		color: #111;
+background: #F7C1C1;
+	}
+	.Inspiration{
+		color: #005900;
+background: #FFFCA8;
+	}
+	#top1{
+		background-color: #0073E6;
+		padding: 10px;
+		color: white;
+		float: right;
+	}
+	</style>
+</head>
+<body>
+	<a name="top"></a>
+	<ul>
+  <li><a href="Guido.html">Home</a></li>
+  <li><a class="active" href="Inspiration.html">Inspiration</a></li>
+  <li><a href="Python.html">Python</a></li>
+</ul>
+<h1 style="text-align: center;font-family: serif;margin-top: 80px;">What do people get inspired from Guido?</h1>
+<div class="Inspiration">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guido_van_Rossum_at_Google_IO_2008.jpg/220px-Guido_van_Rossum_at_Google_IO_2008.jpg" height="800" width="550">
+	<br><br>
+	<figure>
+	<img src="data:image/jpeg;base64,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" height="200" width="450">
+	<figcaption></figcaption>
+</figure>
+	<br><br>
+	<figure>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVyJaUgwCx3YVY0lgMVZQYzuQDucdYv4n-rg&usqp=CAU" width="450" height="700" >
+	<figcaption>Guido van Rossum during his early days</figcaption>
+	</figure>
+	<p style="margin-left: 570px;margin-top: -1760px;"><i>"Let me introduce myself. I’m a nerd, a geek. I’m probably somewhere on the autism spectrum. I‘m also a late bloomer. I graduated from college when I was 26. I was 45 when I got married. I’m now 60 years old, with a 14 year old son. Maybe I just have a hard time with decisions: I’ve lived in the US for over 20 years and I am still a permanent resident.
+		<br><br>
+		I'm no Steve Jobs or Mark Zuckerberg. But at age 35 I created a programming language that got a bit of a following. What happened next was pretty amazing. But I'll get to that.<br><br>
+
+At age 10 my parents gave me an educational electronics kit. The kit was made by Philips, and it was amazing. At first I just followed the directions and everything worked; later I figured out how to design my own circuits. My prized possessions were the kit's three (!) transistors.<br><br>
+
+I took one of my first electronics models, a blinking light, to show and tell in 5th grade. It was a total dud — nobody cared or understood its importance. I think that's one of my earliest memories of finding myself a geek: until then I had just been a quiet quick learner.<br><br>
+
+In high school I developed my nerdiness further — I hung out with a few other kids interested in electronics, and during physics class we sat in the back of the class discussing NAND gates while the rest of the class was still figuring out Ohm's law.<br><br>
+
+Fortunately our physics teacher had figured us out: he employed us to build a digital timer that he used to demonstrate the law of gravity to the rest of the class. It was a great project and showed us that our skills were useful. The other kids still thought we were weird: it was the seventies and many were into smoking pot and rebelling; another group was already preparing for successful careers as doctors or lawyers or tech managers. But they left me alone, I left them alone, and I graduated as one of the best of my year.<br><br>
+After high school I went to the University of Amsterdam: It was close to home, and to a teen growing up in the Netherlands in the seventies, Amsterdam was the only cool city. (Yes, the student protests of 1968 did touch me a bit.) Much to my high school physics teacher's surprise and disappointment, I chose to major in math, not physics. But looking back I think it didn’t matter.<br><br>
+
+In the basement of the science building was a mainframe computer, and it was love at first sight. Card punches! Line printers! Batch jobs! More to the point, I quickly learned to program, in languages with names like Algol, Fortran and Pascal. Mostly forgotten names, but highly influential at the time. Soon I was, again, sitting in the back of class, ignoring the lecture, correcting my computer programs. And why was that?<br><br>
+
+In that basement, around the mainframe, something amazing was happening. There was a loosely-knit group of students and staff with similar interests, and we exchanged tricks of the trade. We shared subroutines and programs. We united in our alliances against the mainframe staff, especially in the endless cat-and-mouse games over disk space. (Disk space was precious in a way you cannot understand today.)<br><br>
+
+But the most important lesson I learned was about sharing: while most of the programming tricks I learned there died with the mainframe era, the idea that software needs to be shared is stronger than ever. Today we call it open source, and it’s a movement. Hold that thought!<br><br>
+
+At the time, my immediate knowledge of the tricks and the trade seemed to matter most though. The mainframe’s operating system group employed a few part-time students, and when they posted a vacancy, I applied, and got the job. It was a life-changing event! Suddenly I had unlimited access to the mainframe — no more fighting for space or terminals — plus access to the source code for its operating system, and dozens of colleagues who showed me how all that stuff worked.<br><br>
+
+I now had my dream job, programming all day, with real customers: other programmers, the users of the mainframe. I stalled my studies and essentially dropped out of college, and I would not have graduated if not for my enlightened manager and a professor who hadn't given up on me. They nudged me towards finishing some classes and pulled some strings, and eventually, with much delay, I did graduate. Yay!<br><br>
+
+I immediately landed a new dream job that would not have been open to me without that degree. I had never lost my interest in programming languages as an object of study, and I joined a team building a new programming language — not something you see every day. The designers hoped their language would take over the world, replacing Basic.<br><br>
+
+It was the eighties now, and Basic was the language of choice for a new generation of amateur programmers, coding on microcomputers like the Apple II and the Commodore 64. Our team considered the Basic language a pest that the world should be rid of. The language we were building, ABC, would "stamp out Basic", according to our motto.<br><br>
+
+Sadly, for a variety of reasons, our marketing (or perhaps our timing) sucked, and after four years, ABC was abandoned. Since then I've spent many hours trying to understand why the project failed, despite its heart being so clearly in the right place. Apart from being somewhat over-engineered, my best answer is that ABC died because there was no internet in those days, and as a result there could not be a healthy feedback loop between the makers of the language and its users. ABC’s design was essentially a one-way street.<br><br>
+
+Just half a decade later, when I was picking through ABC’s ashes looking for ideas for my own language, that missing feedback loop was one of the things I decided to improve upon. “Release early, release often” became my motto (freely after the old Chicago Democrats’ encouragement, “vote early, vote often”). And the internet, small and slow as it was in 1990, made it possible.<br><br>
+
+Looking back 25 years, the Internet and the Open Source movement (a.k.a. Free Software) really did change everything. Plus something called Moore's Law, which makes computers faster every year. Together, these have entirely changed the interaction between the makers and users of computer software. It is my belief that these developments (and how I managed to make good use of them) have contributed more to the success of “my” programming language than my programming skills and experience, no matter how awesome.<br><br>
+
+It also didn't hurt that I named my language Python. This was a bit of unwitting marketing genius on my part. I meant to honor the irreverent comedic genius of Monty Python's Flying Circus, and back in 1990 I didn't think I had much to lose. Nowadays, I'm sure "brand research" firms would be happy to charge you a very large fee to tell you exactly what complex of associations this name tickles in the subconscious of the typical customer. But I was just being flippant.<br><br>
+
+I have promised the ambassador not to bore you with a technical discussion of the merits of different programming languages. But I would like to say a few things about what programming languages mean to the people who use them — programmers. Typically when you ask a programmer to explain to a lay person what a programming language is, they will say that it is how you tell a computer what to do. But if that was all, why would they be so passionate about programming languages when they talk among themselves?<br><br>
+
+In reality, programming languages are how programmers express and communicate ideas — and the audience for those ideas is other programmers, not computers. The reason: the computer can take care of itself, but programmers are always working with other programmers, and poorly communicated ideas can cause expensive flops. In fact, ideas expressed in a programming language also often reach the end users of the program — people who will never read or even know about the program, but who nevertheless are affected by it.<br><br>
+
+Think of the incredible success of companies like Google or Facebook. At the core of these are ideas — ideas about what computers can do for people. To be effective, an idea must be expressed as a computer program, using a programming language. The language that is best to express an idea will give the team using that language a key advantage, because it gives the team members — people! — clarity about that idea. The ideas underlying Google and Facebook couldn't be more different, and indeed these companies' favorite programming languages are at opposite ends of the spectrum of programming language design. And that’s exactly my point.<br><br>
+
+True story: The first version of Google was written in Python. The reason: Python was the right language to express the original ideas that Larry Page and Sergey Brin had about how to index the web and organize search results. And they could run their ideas on a computer, too!<br><br>
+
+So, in 1990, long before Google and Facebook, I made my own programming language, and named it Python."</i></p></div>
+<p style="color: white;"><big><b>This was the speech given by Guido Van Rossum at King's Day in Netherlands</b></big></p>
+<p style="color: white;"><b>Guido's life is an inspiration for many people.His struggles in his life and his failures which made his way for success is quite extrodinary.Who knew that an average student would one day invent a programming language which would change the entire world of computer science</b></p>
+<div class="People">
+<p style="color: #FFFFFF;
+background: #0e8dbc;
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);font-size: 300%;">Here are some people's view about Guido</p>
+<p><b>Vasudev Ram said...</b></p>
+<p><i>"Please excuse my english..,
+
+Whenever i lose hope., python programming language and its community always gave me hope to remember me that i can code. Initially i learned with idle python-tutorial official docs, p2pu ,codeaca.
+
+Then i tried pylonsproject, zodb(seperate story) created to show my locality that i can code and get job. I shared my experience in an interview (they didn't listen., they said they were using python 2.X. i shared them what i learned from python docs about python2 and python3(recommended). They didn't listen they didn't read my resume). Got bad name.
+
+Well, I don't know what to do., (https://github.com/fallenhitokiri/autocomplete-plus-jedi) project (well fallenhitokiri asked me to contribute but i said i don't have job and in my locality they don't accept contribution as " why i should give job to you " boost up so i created new extension with fallenhitokiri & davidhalter's jedi(api).... got an idea about creating auto-complete for python.., i got a badge from atom(github) like others. It didn't create me any job... yeah it did gave me some confidence. I get job and lose job. I do not want to share. But Did i lose hope.., nope. I tried creating same in another editor brackets.
+
+With single python-script... i roll over to other open-source editors and try to create auto-complete for python with davidhalter's jedi not to get a name in davidhalter's jedi github readme.md..(but i do represent in my resume). The reason is i can get a knowledge of another language through python and some nerds like me may code and create projects similarly and learn through it like i learned from fallenhitokiri & davidhalter).
+
+I am a member too(mind-voice-who said you are not) in learning and using python.
+
+Guido van Rossum , python programming language and its community always gave me hope to remember me that i can code.."</i></p>
+
+
+<p><b>Daniel Berke said...</b></p>
+<p><i>"I just wanted to say thanks for creating Python in the first place. As a college student, teaching myself Python to assist a professor helped me realize that whatever I did in life I wanted it to involve computer programming, and getting a job two years later that involved a lot of Python programming showed me I could really make a living doing stuff I loved. Which is great. So thanks! :)"</i></p>
+<p><b>Unknown said...</b></p>
+<p><i>"Really a wonderful speech ...thank you so much for sharing your experiences in life very inspiring thanks Guido for helping me to make python one of the favorite programming languages here inn Iraq>>> Wish you the best"</i></p>
+</div>
+<big>
+<p style="color: white;"><i>To know more about Guido,do click on this link:</i><a style="color: #00FFFF;" href="https://en.wikipedia.org/wiki/Guido_van_Rossum" target="_blank"><b>https://en.wikipedia.org/wiki/Guido_van_Rossum</b></a></p></big>
+<a id="top1" href="#top">Go to Top</a>
+
+</body>
+</html>
